@@ -8,10 +8,10 @@
             "type": "shell",
             "group": "none",
             "detail": "Install depedencies for basic setup",
-            "command": "${workspaceFolder}/.vscode/setup.sh",
+            "command": "${workspaceFolder}/scripts/setup.sh",
             // // placeholder for windows scripts, not currently planned
             // "windows": {
-            //     "command": "call -c ${workspaceFolder}\\.vscode\\setup.bat",
+            //     "command": "call -c ${workspaceFolder}\\scripts\\setup.bat",
             // },
             "problemMatcher": []
         },
@@ -42,10 +42,10 @@
             "type": "shell",
             "group": "none",
             "detail": "Check that settings.json has been created",
-            "command": "${workspaceFolder}/.vscode/config.sh",
+            "command": "${workspaceFolder}/scripts/config.sh",
             // // placeholder for windows scripts, not currently planned
             // "windows": {
-            //     "command": "call ${workspaceFolder}\\.vscode\\config.bat",
+            //     "command": "call ${workspaceFolder}\\scripts\\config.bat",
             // },
             "problemMatcher": []
         },
@@ -54,10 +54,10 @@
             "label": "cli-build",
             "group": "build",
             "detail": "Build plugin with CLI",
-            "command": "${workspaceFolder}/.vscode/build.sh",
+            "command": "${workspaceFolder}/scripts/build.sh",
             // // placeholder for windows logic, not currently planned
             // "windows": {
-            //     "command": "call ${workspaceFolder}\\.vscode\\build.bat",
+            //     "command": "call ${workspaceFolder}\\scripts\\build.bat",
             // },
             "problemMatcher": []
         }, 
